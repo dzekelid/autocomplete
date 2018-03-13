@@ -21,7 +21,7 @@ apis:
   tags: Autocomplete
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/autocomplete/master/_listings/dataatwork/jobs-autocomplete-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/autocomplete/master/_listings/dataatwork/skills-autocomplete-get.md
 x-common:
 - type: x-developer
   url: http://api.dataatwork.org/v1/spec/
