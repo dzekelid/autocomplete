@@ -32,7 +32,7 @@ apis:
   tags: Autocomplete
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/autocomplete/master/_listings/reddit/subreddit-autocomplete-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/autocomplete/master/_listings/reddit/subreddit-autocomplete-v2-get.md
 x-common:
 - type: x-authentication
   url: https://github.com/reddit/reddit/wiki/OAuth2
