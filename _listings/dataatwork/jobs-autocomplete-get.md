@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Open Skills API
-  description: A complete and standard data store for canonical and emerging skills,
-    knowledge, abilities, tools, technolgies, and how they relate to jobs.
+  title: Open Skills API Job Title Autocomplete
+  description: Retrieves the names, descriptions, and UUIDs of all job titles matching
+    a given search criteria.
   contact:
     name: Work Data Initiative
     url: http://www.dataatwork.org
