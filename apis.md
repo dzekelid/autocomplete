@@ -5,7 +5,7 @@ description: This is a repository of autocomplete APIs, self-contained as a Gith
   operations.
 image: http://template.streamdata.gallery/assets/autocomplete.png
 created: "2018-02-24"
-modified: "2018-05-20"
+modified: "2018-06-17"
 url: http://autocomplete.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -19,6 +19,8 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/autocomplete/master/_listings/amadeus/apis.yaml
 - name: Mattermost
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/autocomplete/master/_listings/mattermost/apis.yaml
+- name: BigOven
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/autocomplete/master/_listings/bigoven/apis.yaml
 maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist

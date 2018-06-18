@@ -1,17 +1,14 @@
 ---
 name: Reddit
 x-slug: reddit
-description: Reddit /??r??d?t/, stylized as reddit, is an entertainment, social networking
-  service and news website where registered community members can submit content,
-  such as text posts or direct links. Only registered users can then vote submissions
-  up or down to organize the posts and determine their position on the sites pages.
-  Content entries are organized by areas of interest called subreddits.
-image: http://www.redditstatic.com/about/assets/reddit-logo.png
+description: Reddit is a community of millions of users engaging in the creation of
+  content and the sharing of conversation across tens of thousands of topics.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "6"
 tags: Autocomplete
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/autocomplete/master/_listings/reddit/apis.md
 specificationVersion: "0.14"
 apis:
@@ -20,7 +17,7 @@ apis:
   description: |-
     Return a list of subreddits and data for subreddits whose names start
     with &#39;query&#39;.
-  image: http://www.redditstatic.com/about/assets/reddit-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
   humanURL: http://www.reddit.com
   baseURL: https://www.reddit.com////subreddit_autocomplete
   tags: Subreddit, Autocomplete
@@ -30,7 +27,7 @@ apis:
 - name: Reddit Get Subreddit Autocomplete V2
   x-api-slug: reddit
   description: boolean value
-  image: http://www.redditstatic.com/about/assets/reddit-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
   humanURL: http://www.reddit.com
   baseURL: https://www.reddit.com////subreddit_autocomplete_v2
   tags: Subreddit, Autocomplete, V2
@@ -39,12 +36,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/autocomplete/master/_listings/reddit/subreddit-autocomplete-v2-getnbsp-openapi.md
 - name: Reddit
   x-api-slug: reddit
-  description: Reddit /??r??d?t/, stylized as reddit, is an entertainment, social
-    networking service and news website where registered community members can submit
-    content, such as text posts or direct links. Only registered users can then vote
-    submissions up or down to organize the posts and determine their position on the
-    sites pages. Content entries are organized by areas of interest called subreddits.
-  image: http://www.redditstatic.com/about/assets/reddit-logo.png
+  description: Reddit is a community of millions of users engaging in the creation
+    of content and the sharing of conversation across tens of thousands of topics.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
   humanURL: http://www.reddit.com
   baseURL: https://www.reddit.com//
   tags: Autocomplete
@@ -68,8 +62,12 @@ x-common:
   url: https://github.com/reddit/reddit/wiki/API-Wrappers
 - type: x-console
   url: https://apigee.com/console/reddit
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/reddit
 - type: x-developer
   url: http://www.reddit.com/dev/api
+- type: x-email
+  url: legal@reddit.com
 - type: x-github
   url: https://github.com/reddit
 - type: x-privacy
