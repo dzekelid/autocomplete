@@ -7,39 +7,33 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/379-bigove
 x-kinRank: "8"
 x-alexaRank: "117577"
 tags: Autocomplete
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/autocomplete/master/_listings/bigoven/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Big Oven Given a query, return recipe titles starting with query. Query must
-    be at least 3 chars in length.
-  x-api-slug: big-oven
+- name: Big Oven - Given a query, return recipe titles starting with query. Query
+    must be at least 3 chars in length.
+  x-api-slug: recipeautocomplete-get
   description: Given a query, return recipe titles starting with query. query must
     be at least 3 chars in length..
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/379-bigoven.jpg
   humanURL: http://www.bigoven.com
-  baseURL: https://api2.bigoven.com////recipe/autocomplete
-  tags: Recipes,Recipe,Autocomplete
+  baseURL: https://api2.bigoven.com//
+  tags: Cooking, Food, Nutrition, Recipes, Food, Stack Network, Mobile, Technology,
+    internet, API Provider, , Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/autocomplete/master/_listings/bigoven/recipeautocomplete-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/autocomplete/master/_listings/bigoven/recipeautocomplete-get-openapi.md
-- name: Big Oven
-  x-api-slug: big-oven
-  description: Free recipe app for home cooks. Create a meal plan, grocery list and
-    more from your favorite recipes. Organize your recipe collection and take it anywhere.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/379-bigoven.jpg
-  humanURL: http://www.bigoven.com
-  baseURL: https://api2.bigoven.com//
-  tags: Autocomplete
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/autocomplete/master/_listings/bigoven/openapi.md
 x-common:
 - type: x-website
   url: http://www.bigoven.com
+- type: x-api-gallery
+  url: http://bigcommerce.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://bigoven.stack.network
 - type: x-base
   url: http://api.bigoven.com/
 - type: x-blog

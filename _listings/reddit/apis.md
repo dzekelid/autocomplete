@@ -7,45 +7,16 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddi
 x-kinRank: "9"
 x-alexaRank: "6"
 tags: Autocomplete
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/autocomplete/master/_listings/reddit/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Reddit Get Subreddit Autocomplete
-  x-api-slug: reddit
-  description: |-
-    Return a list of subreddits and data for subreddits whose names start
-    with &#39;query&#39;.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
-  humanURL: http://www.reddit.com
-  baseURL: https://www.reddit.com////subreddit_autocomplete
-  tags: Subreddit, Autocomplete
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/autocomplete/master/_listings/reddit/subreddit-autocomplete-getnbsp-openapi.md
-- name: Reddit Get Subreddit Autocomplete V2
-  x-api-slug: reddit
-  description: boolean value
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
-  humanURL: http://www.reddit.com
-  baseURL: https://www.reddit.com////subreddit_autocomplete_v2
-  tags: Subreddit, Autocomplete, V2
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/autocomplete/master/_listings/reddit/subreddit-autocomplete-v2-getnbsp-openapi.md
-- name: Reddit
-  x-api-slug: reddit
-  description: Reddit is a community of millions of users engaging in the creation
-    of content and the sharing of conversation across tens of thousands of topics.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
-  humanURL: http://www.reddit.com
-  baseURL: https://www.reddit.com//
-  tags: Autocomplete
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/autocomplete/master/_listings/reddit/openapi.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://rebilly.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://reddit.stack.network
 - type: x-authentication
   url: https://github.com/reddit/reddit/wiki/OAuth2
 - type: x-base
