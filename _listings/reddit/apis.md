@@ -7,11 +7,37 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddi
 x-kinRank: "9"
 x-alexaRank: "6"
 tags: Autocomplete
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/autocomplete/master/_listings/reddit/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Reddit - Get Subreddit Autocomplete
+  x-api-slug: subreddit-autocomplete-getnbsp
+  description: |-
+    Return a list of subreddits and data for subreddits whose names start
+    with &#39;query&#39;.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
+  humanURL: http://www.reddit.com
+  baseURL: https://www.reddit.com//
+  tags: Social, Social, My API Stack, Links, Stack Network, Stack, Media, internet,
+    Mobile, Technology, SDIO Syndication, General Data, Pedestal, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/autocomplete/master/_listings/reddit/subreddit-autocomplete-getnbsp-openapi.md
+- name: Reddit - Get Subreddit Autocomplete V2
+  x-api-slug: subreddit-autocomplete-v2-getnbsp
+  description: boolean value
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
+  humanURL: http://www.reddit.com
+  baseURL: https://www.reddit.com//
+  tags: Social, Social, My API Stack, Links, Stack Network, Stack, Media, internet,
+    Mobile, Technology, SDIO Syndication, General Data, Pedestal, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/autocomplete/master/_listings/reddit/subreddit-autocomplete-v2-getnbsp-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://rebilly.api.gallery.streamdata.io
